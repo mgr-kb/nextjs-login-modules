@@ -2,6 +2,7 @@ import type { FC } from "react";
 import { useState, useId } from "react";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useRouter } from "next/router";
 import { signIn, useSession } from "next-auth/react";
 import { useForm } from "react-hook-form";
 
@@ -22,6 +23,8 @@ export const LoginForm: FC = () => {
 
   const componentId = useId();
   const errorId = `${componentId}-error`;
+
+  const router = useRouter();
 
   const {
     register,
