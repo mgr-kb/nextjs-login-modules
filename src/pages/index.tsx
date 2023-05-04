@@ -27,7 +27,7 @@ export default function Home() {
   };
   const handleDelete = async () => {
     const res = await fetch("/api/prisma-sample/delete", {
-      method: "DELETE",
+      method: "POST",
       body: JSON.stringify({
         id: 1,
       }),
