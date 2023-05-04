@@ -1,5 +1,5 @@
 import type { ComponentProps, ReactNode } from "react";
-import { forwardRef, useId } from "react";
+import { forwardRef, useId, FC } from "react";
 
 import clsx from "clsx";
 

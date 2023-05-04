@@ -10,7 +10,6 @@ import { ErrorMessage } from "@/components/ui/ErrorMessage";
 import { PasswordBoxWithInfo } from "@/components/ui/PasswordBoxWithInfo";
 import { TextBoxWithInfo } from "@/components/ui/TextBoxWithInfo";
 import { loginFormInputSchema } from "@/lib/schema/LoginSchema";
-
 import type { LoginFormInput } from "@/lib/schema/LoginSchema";
 import type { FieldValues } from "react-hook-form";
 
